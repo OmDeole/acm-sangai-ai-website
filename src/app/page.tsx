@@ -4,7 +4,6 @@ import AboutSection from "@/components/AboutSection";
 import EventsSection from "@/components/EventsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TeamSection from "@/components/TeamSection";
-import ResearchSection from "@/components/ResearchSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -27,9 +26,6 @@ export default function Home() {
         </section>
         <section id="team">
           <TeamSection />
-        </section>
-        <section id="research">
-          <ResearchSection />
         </section>
         <section id="contact">
           <ContactSection />

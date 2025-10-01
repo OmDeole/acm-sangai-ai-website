@@ -5,7 +5,7 @@ import LayoutTextFlipDemo from "./layout-text-flip-demo";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-32 overflow-hidden">
-      {/* 3D Brain Background - Interactive */}
+      {/* 3D Brain Background - Interactive with constant rotation */}
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <div className="sketchfab-embed-wrapper w-full h-full">
           <iframe 
@@ -14,7 +14,7 @@ export default function HeroSection() {
             frameBorder="0" 
             allowFullScreen 
             allow="autoplay; fullscreen; xr-spatial-tracking" 
-            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=0&autostart=1&transparent=1&ui_controls=1&ui_infos=0&ui_stop=0&ui_hint=2"
+            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=1&autostart=1&transparent=1&ui_controls=1&ui_infos=0&ui_stop=0&ui_hint=2"
           />
         </div>
         {/* Gradient overlay */}
