@@ -10,7 +10,6 @@ const quickLinks = [
 ];
 
 const resources = [
-  { name: "Research", href: "#research" },
   { name: "Team", href: "#team" },
   { name: "Contact", href: "#contact" },
 ];
@@ -127,9 +126,6 @@ export default function Footer() {
               <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
               <a href="#" className="hover:text-accent transition-colors">Code of Conduct</a>
             </div>
-          </div>
-          <div className="text-center mt-4 text-sm text-gray-500">
-            Website by <span className="text-accent font-medium">Om Deole</span>
           </div>
         </div>
       </div>

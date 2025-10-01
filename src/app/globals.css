@@ -1,3 +1,6 @@
+/* Updated: 2025-10-01T09:58:03.590Z */
+/* Updated: 2025-10-01T09:54:54.722Z */
+/* Updated: 2025-10-01T06:51:27.840Z */
 /* Updated: 2025-09-29T20:30:35.794Z */
 /* Updated: 2025-09-29T20:30:29.964Z */
 /* Updated: 2025-09-29T19:43:59.018Z */
@@ -163,6 +166,41 @@ nextjs-portal {
 /* Glow effect */
 .glow {
   box-shadow: 0 0 20px rgba(123, 97, 255, 0.3), 0 0 40px rgba(0, 230, 230, 0.2);
+}
+
+/* Enhanced glow button effect for important CTAs */
+.glow-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.glow-button::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, #7B61FF, #00E6E6, #F5C542);
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  filter: blur(8px);
+}
+
+.glow-button:hover::before {
+  opacity: 0.7;
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    filter: blur(8px);
+    opacity: 0.7;
+  }
+  50% {
+    filter: blur(12px);
+    opacity: 1;
+  }
 }
 
 /* Particle animation */

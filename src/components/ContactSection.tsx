@@ -67,7 +67,7 @@ export default function ContactSection() {
               </div>
               <Button
                 type="submit"
-                className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold glow group"
+                className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold group glow-button"
                 size="lg"
               >
                 Send Message

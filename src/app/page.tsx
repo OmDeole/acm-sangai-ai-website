@@ -6,6 +6,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import TeamSection from "@/components/TeamSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import EasterEgg from "@/components/EasterEgg";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         </section>
       </main>
       <Footer />
+      <EasterEgg />
     </div>
   );
 }
