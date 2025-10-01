@@ -18,8 +18,8 @@ export default function HeroSection() {
           />
         </div>
         {/* Gradient overlay to blend brain with background */}
-      //   <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/80" />
-      // </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/80" />
+      </div>
 
       <div className="mx-auto text-center relative z-10 space-y-8 max-w-5xl">
         {/* Bold ACM SIGAI Heading */}
