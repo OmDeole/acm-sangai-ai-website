@@ -14,7 +14,7 @@ export default function HeroSection() {
             frameBorder="0" 
             allowFullScreen 
             allow="autoplay; fullscreen; xr-spatial-tracking" 
-            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=1&autostart=1&transparent=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0"
+            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=1&autostart=1&transparent=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_hint=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0"
           />
         </div>
         {/* Gradient overlay to blend brain with background */}
