@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Interactive Background Ripple Effect */}
       <BackgroundRippleEffect />
 
-      <div className="max-w-6xl mx-auto text-center relative z-10 space-y-12">
+      <div className="mx-auto text-center relative z-10 space-y-12 !w-[678px] !h-[376px] !max-w-[678px]">
         {/* Bold ACM SIGAI Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          className="text-xl md:text-2xl text-gray-300 mx-auto leading-relaxed !w-[670px] !h-[70px] !max-w-[670px]">
           Empowering students through cutting-edge technology, innovation, and collaborative learning
         </motion.p>
 
@@ -48,6 +48,6 @@ export default function HeroSection() {
           </a>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
