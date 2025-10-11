@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sparkles } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -9,20 +9,16 @@ const navLinks = [
   { name: "Events", href: "#events" },
   { name: "Projects", href: "#projects" },
   { name: "Team", href: "#team" },
-  { name: "Achievements", href: "#achievements" },
   { name: "Contact", href: "#contact" },
 ];
 
 export default function Header() {
-  const [isInAboutSection, setIsInAboutSection] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      // Detect if we've scrolled to about section (roughly after hero section)
-      // Hero section is min-h-screen, so check if scrolled past viewport height
-      const viewportHeight = window.innerHeight;
-      setIsInAboutSection(window.scrollY > viewportHeight * 0.7);
+      setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -34,7 +30,7 @@ export default function Header() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isInAboutSection ? "glass shadow-lg" : "bg-background/95 backdrop-blur-sm shadow-md"
+        isScrolled ? "glass shadow-lg" : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 py-4">
@@ -45,12 +41,10 @@ export default function Header() {
             className="flex items-center gap-2 text-xl font-bold"
             whileHover={{ scale: 1.05 }}
           >
-            <img 
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/PHOTO-2025-10-04-23-00-20-removebg-preview-1759944511312.png" 
-              alt="ACM SIGAI Logo" 
-              className="w-10 h-10 object-contain"
-            />
-            <span className="gradient-text">ACM SIGAI</span>
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+              <Sparkles className="w-6 h-6 text-white" />
+            </div>
+            <span className="gradient-text">PCCOE ACM SIGAI</span>
           </motion.a>
 
           {/* Desktop Navigation */}

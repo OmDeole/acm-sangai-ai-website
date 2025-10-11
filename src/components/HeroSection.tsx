@@ -26,8 +26,8 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-6xl md:text-8xl font-bold gradient-text drop-shadow-2xl">
-          ACM SIGAI
+          className="text-6xl md:text-6xl font-bold gradient-text drop-shadow-2xl">
+          PCCOE ACM SIGAI
         </motion.h1>
 
         <motion.div
@@ -42,7 +42,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg md:text-xl text-gray-300 mx-auto leading-relaxed max-w-3xl px-4">
-          Empowering students through cutting-edge technology, innovation, and collaborative learning
+          Empowering students to explore, create, and innovate with AI — using technology, curiosity, and teamwork to shape a smarter, more connected world.
         </motion.p>
 
         <motion.div
