@@ -8,8 +8,8 @@ export default function EasterEgg() {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Check for Ctrl+Shift+Q
-      if (e.ctrlKey && e.shiftKey && e.key === "Q") {
+      // Check for Ctrl+I
+      if (e.ctrlKey && e.key === "I") {
         e.preventDefault();
         setIsOpen(true);
       }
@@ -77,7 +77,7 @@ export default function EasterEgg() {
                 </motion.div>
 
                 <p className="text-gray-500 text-xs italic">
-                  Psst... Press Ctrl+Shift+Q to toggle this message
+                  Psst... Press Ctrl+Shift+I to toggle this message
                 </p>
               </div>
             </div>

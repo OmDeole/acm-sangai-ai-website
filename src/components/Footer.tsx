@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "motion/react";
-import { Sparkles, Mail, MapPin, Phone, Linkedin, Github, Twitter, Instagram } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin, Instagram } from "lucide-react";
 
 const quickLinks = [
   { name: "Home", href: "#home" },
@@ -16,8 +16,6 @@ const resources = [
 
 const socialLinks = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Instagram, href: "#", label: "Instagram" },
 ];
 
@@ -34,9 +32,11 @@ export default function Footer() {
               viewport={{ once: true }}
               className="flex items-center gap-2 mb-4"
             >
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/PHOTO-2025-10-04-23-00-20-removebg-preview-1759944511312.png" 
+                alt="ACM SIGAI Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-xl font-bold gradient-text">ACM SIGAI</span>
             </motion.div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">

@@ -124,31 +124,6 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Social Media */}
-            <div className="glass rounded-2xl p-8">
-              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
-              <div className="flex gap-3">
-                <a
-                  href="#"
-                  className="flex-1 py-3 rounded-lg bg-primary/10 hover:bg-primary text-primary hover:text-white transition-all text-center font-semibold"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="#"
-                  className="flex-1 py-3 rounded-lg bg-secondary/10 hover:bg-secondary text-secondary hover:text-black transition-all text-center font-semibold"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="#"
-                  className="flex-1 py-3 rounded-lg bg-accent/10 hover:bg-accent text-accent hover:text-black transition-all text-center font-semibold"
-                >
-                  Twitter
-                </a>
-              </div>
-            </div>
-
             {/* Map placeholder */}
             <div className="glass rounded-2xl p-2 overflow-hidden">
               <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg flex items-center justify-center">

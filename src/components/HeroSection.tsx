@@ -5,16 +5,16 @@ import LayoutTextFlipDemo from "./layout-text-flip-demo";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-32 overflow-hidden">
-      {/* 3D Brain Background - Exact code from Sketchfab */}
+      {/* 3D Brain Background - Sketchfab embed with watermark (hidden by opaque navbar) */}
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <div className="sketchfab-embed-wrapper w-full h-full">
           <iframe 
             title="Brain Point Cloud" 
             frameBorder="0" 
-            allowFullScreen 
+            allowFullScreen
             allow="autoplay; fullscreen; xr-spatial-tracking" 
             className="w-full h-full"
-            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=1&autostart=1&transparent=1&ui_stop=0&ui_inspector=0&ui_hint=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0"
+            src="https://sketchfab.com/models/c427ea0aee214141a78eba37bf9b76bb/embed?autospin=1&autostart=1&ui_infos=0&ui_stop=0&ui_inspector=0&ui_hint=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0"
           />
         </div>
         {/* Gradient overlay */}
@@ -51,9 +51,9 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="pt-4">
           <a
-            href="#projects"
+            href="#about"
             className="inline-block px-10 py-4 bg-accent text-background font-semibold text-lg rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-xl hover:shadow-accent/50 hover:scale-105 glow-button">
-            Explore Projects
+            About Us
           </a>
         </motion.div>
       </div>

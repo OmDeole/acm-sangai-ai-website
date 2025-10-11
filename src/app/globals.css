@@ -1,3 +1,10 @@
+/* Updated: 2025-10-08T17:15:06.618Z */
+/* Updated: 2025-10-02T04:54:32.765Z */
+/* Updated: 2025-10-02T04:54:28.321Z */
+/* Updated: 2025-10-02T04:38:12.500Z */
+/* Updated: 2025-10-01T11:14:52.838Z */
+/* Updated: 2025-10-01T11:14:41.571Z */
+/* Updated: 2025-10-01T11:14:40.113Z */
 /* Updated: 2025-10-01T09:58:03.590Z */
 /* Updated: 2025-10-01T09:54:54.722Z */
 /* Updated: 2025-10-01T06:51:27.840Z */
@@ -139,6 +146,11 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+  }
+  
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
   }
 }
 

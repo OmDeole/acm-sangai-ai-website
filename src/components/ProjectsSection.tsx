@@ -1,62 +1,13 @@
 "use client";
 import { motion } from "motion/react";
 import TiltedCard from "@/components/ui/TiltedCard";
-import { Github, ExternalLink, Star } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const projects = [
   {
-    title: "AI Image Generator",
-    description: "Generate stunning AI-powered images using state-of-the-art diffusion models",
+    title: "Coming Soon",
+    description: "Exciting projects are in the pipeline. Stay tuned for groundbreaking AI innovations!",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-    tech: ["Python", "TensorFlow", "Stable Diffusion"],
-    stars: 245,
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Smart Campus Assistant",
-    description: "NLP-powered chatbot to help students navigate campus resources and services",
-    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop",
-    tech: ["React", "Node.js", "OpenAI"],
-    stars: 189,
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Code Review AI",
-    description: "Automated code review system using machine learning for better code quality",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-    tech: ["Python", "FastAPI", "GPT-4"],
-    stars: 312,
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Voice Command System",
-    description: "Real-time voice recognition system for hands-free device control",
-    image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=600&h=400&fit=crop",
-    tech: ["Python", "PyTorch", "Whisper"],
-    stars: 156,
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Blockchain Voting",
-    description: "Secure and transparent voting system built on blockchain technology",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
-    tech: ["Solidity", "Web3.js", "React"],
-    stars: 201,
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Health Tracker ML",
-    description: "Machine learning model to predict health trends from wearable device data",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
-    tech: ["Python", "Scikit-learn", "Flask"],
-    stars: 178,
-    github: "https://github.com",
-    demo: "https://demo.com"
   }
 ];
 
@@ -83,7 +34,7 @@ export default function ProjectsSection() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}
@@ -91,6 +42,7 @@ export default function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="max-w-md"
             >
               <TiltedCard
                 imageSrc={project.image}
@@ -106,39 +58,10 @@ export default function ProjectsSection() {
                 showTooltip={true}
                 displayOverlayContent={true}
                 overlayContent={
-                  <div className="w-full h-full flex flex-col justify-end p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Star className="w-4 h-4 text-accent fill-accent" />
-                      <span className="text-sm text-white font-medium">{project.stars}</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                    <p className="text-sm text-gray-300 mb-3 line-clamp-2">{project.description}</p>
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {project.tech.map((tech) => (
-                        <span
-                          key={tech}
-                          className="px-2 py-1 text-xs rounded-full bg-primary/20 text-primary border border-primary/30"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                    <div className="flex gap-2">
-                      <a
-                        href={project.github}
-                        className="flex items-center gap-1 px-3 py-1 text-sm rounded-lg bg-accent/20 text-accent border border-accent/30 hover:bg-accent hover:text-black transition-all"
-                      >
-                        <Github className="w-4 h-4" />
-                        Code
-                      </a>
-                      <a
-                        href={project.demo}
-                        className="flex items-center gap-1 px-3 py-1 text-sm rounded-lg bg-secondary/20 text-secondary border border-secondary/30 hover:bg-secondary hover:text-black transition-all"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        Demo
-                      </a>
-                    </div>
+                  <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+                    <Sparkles className="w-12 h-12 text-accent mb-4" />
+                    <h3 className="text-2xl font-bold text-white mb-3">{project.title}</h3>
+                    <p className="text-sm text-gray-300 text-center">{project.description}</p>
                   </div>
                 }
               />

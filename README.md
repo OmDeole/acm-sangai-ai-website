@@ -1,5 +1,5 @@
+this is the website which is actually deployed on git hub
 link - https://acm-sangai-ai-website.vercel.app/
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
