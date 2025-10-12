@@ -96,7 +96,7 @@ export default function FAQSection() {
             Frequently Asked <span className="gradient-text">Questions</span>
           </h2>
           <p className="text-xl text-gray-400">
-            Everything you need to know about ACM SIGAI
+            Everything you need to know about PCCOE ACM SIGAI
           </p>
         </motion.div>
 

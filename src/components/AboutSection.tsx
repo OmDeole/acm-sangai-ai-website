@@ -10,7 +10,7 @@ const aboutCards = [
 		title: "Who We Are",
 		highlightWord: "We",
 		description:
-			"ACM SIGAI is the Special Interest Group on Artificial Intelligence at our institution, affiliated with ACM. We unite students, researchers, and professionals passionate about AI and computing.",
+			"PCCOE ACM SIGAI is the Special Interest Group on Artificial Intelligence at our institution, affiliated with ACM. We unite students, researchers, and professionals passionate about AI and computing.",
 	},
 	{
 		icon: Target,
@@ -34,7 +34,7 @@ const aboutCards = [
 			<ul className="list-disc pl-5 space-y-1 text-gray-400 text-sm leading-relaxed">
 				<li>
 					<strong>Skill Building:</strong> Workshops, lectures, hackathons, and
-					participation in ICPC contests and AI summer/winter schools.
+					participation in ICPC contests and ACM summer/winter schools.
 				</li>
 				<li>
 					<strong>Research:</strong> Support student AI projects and collaboration
@@ -73,11 +73,10 @@ export default function AboutSection() {
 					className="text-center mb-16"
 				>
 					<h2 className="text-4xl md:text-6xl font-bold mb-4">
-						About <span className="gradient-text">ACM SIGAI</span>
+						About <span className="gradient-text">PCCOE ACM SIGAI</span>
 					</h2>
 					<p className="text-xl text-gray-400 max-w-3xl mx-auto">
-						A premier student chapter dedicated to advancing computing as a science
-						and profession
+						Shaping Future AI Innovators Through Learning and Collaboration
 					</p>
 				</motion.div>
 
@@ -103,9 +102,7 @@ export default function AboutSection() {
 							</PointerHighlight>
 						</h3>
 						<p className="text-gray-400 text-base leading-relaxed text-center">
-							ACM SIGAI is the Special Interest Group on Artificial Intelligence at
-							our institution, affiliated with ACM. We unite students, researchers,
-							and professionals passionate about AI and computing.
+							{aboutCards[0].description}
 						</p>
 					</CardSpotlight>
 				</motion.div>
@@ -166,7 +163,7 @@ export default function AboutSection() {
 							<ul className="list-disc pl-5 space-y-3 text-gray-400 text-base leading-relaxed">
 								<li>
 									<strong className="text-accent">Skill Building:</strong> Workshops,
-									lectures, hackathons, and participation in ICPC contests and AI
+									lectures, hackathons, and participation in ICPC contests and ACM
 									summer/winter schools.
 								</li>
 								<li>

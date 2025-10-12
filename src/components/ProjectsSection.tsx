@@ -29,7 +29,7 @@ export default function ProjectsSection() {
             Our Projects
           </h2>
           <p className="text-gray-400 text-lg max-w-10xl mx-auto">
-            Innovative solutions built by our talented members
+           Showcasing our students innovative projects in AI and emerging technologies.
           </p>
         </motion.div>
 

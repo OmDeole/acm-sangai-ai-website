@@ -293,7 +293,7 @@ const core = [
             Meet Our <span className="gradient-text">Team</span>
           </h2>
           <p className="text-xl text-gray-400">
-            Passionate individuals driving innovation in AI
+           Members collaborating to lead in AI and technology.
           </p>
         </motion.div>
 
