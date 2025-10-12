@@ -5,20 +5,24 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "What is ACM SIGAI Student Chapter?",
-    answer: "ACM SIGAI Student Chapter is a community of students passionate about Artificial Intelligence and Machine Learning. We organize workshops, hackathons, research sessions, and collaborative projects to help students learn and grow in the field of AI."
+    question: "What is PCCOE ACM SIGAI?",
+    answer: "APCCOE ACM SIGAI is the Special Interest Group on Artificial Intelligence at our college, affiliated with ACM. We bring together students, researchers, and professionals passionate about AI to learn, collaborate, and innovate."
   },
   {
-    question: "What kind of events does ACM SIGAI organize?",
-    answer: "We organize a variety of events including technical workshops, guest lectures from industry experts, hackathons, research paper discussions, project showcases, and networking sessions. Check our Events section for upcoming activities."
+    question: "Who can join PCCOE ACM SIGAI?",
+    answer: "Any student or researcher interested in AI, Machine Learning, and related technologies can join our chapter."
   },
   {
-    question: "Can I contribute to research projects through ACM SIGAI?",
-    answer: "Absolutely! We encourage members to participate in research projects and provide guidance from faculty advisors and senior members. We also collaborate with other institutions and industry partners on cutting-edge AI research."
+    question: "What activities and competitions does the chapter organize?",
+    answer: "Workshops, hackathons, quizzes, AI/ML learning series, and technical competitions — plus chances to participate in ICPC and AI summer/winter schools."
   },
   {
-    question: "How can I stay updated with ACM SIGAI activities?",
-    answer: "Follow us on our social media channels, join our mailing list, and check our website regularly for updates. We also have a dedicated communication channel where we share announcements, resources, and opportunities."
+    question: "How can I stay updated about upcoming events?",
+    answer: "You can follow our website, social media pages, and mailing list for announcements about events, workshops, and competitions."
+  },
+  {
+    question: "Who can I contact for more information?",
+    answer:"You can reach out via the contact form on our website or connect with our chapter coordinators listed on the team page.",
   }
 ];
 

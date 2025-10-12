@@ -93,8 +93,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <a href="mailto:acm.sangai@university.edu" className="text-gray-400 hover:text-accent transition-colors">
-                      acm.sangai@university.edu
+                    <a href="mailto:pccoeacmsigai@pccoepune.org" className="text-gray-400 hover:text-accent transition-colors">
+                      pccoeacmsigai@pccoepune.org
                     </a>
                   </div>
                 </div>
@@ -104,8 +104,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <a href="tel:+911234567890" className="text-gray-400 hover:text-accent transition-colors">
-                      +91 123 456 7890
+                    <a href="tel:+917218599251" className="text-gray-400 hover:text-accent transition-colors">
+                      +91 72185 99251
                     </a>
                   </div>
                 </div>
@@ -116,19 +116,26 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
                     <p className="text-gray-400">
-                      Computer Science Department<br />
-                      University Campus, City - 123456
+                      Computer Engineering (Regional Language) Department<br />
+                      PCCOE Sector no.- 26, Nigdi, Pune, Maharashtra 411044.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Map placeholder */}
+            {/* Map section with actual Google Map */}
             <div className="glass rounded-2xl p-2 overflow-hidden">
-              <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg flex items-center justify-center">
-                <MapPin className="w-12 h-12 text-gray-600" />
-              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d2673.0779439005664!2d73.76180091421031!3d18.650390702126035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e6!4m4!1s0x3bc2b9846e3e2685%3A0xe125bd81a1bfae64!3m2!1d18.650994999999998!2d73.7623629!4m5!1s0x3bc2b9e76c8fa205%3A0x1b210131915734fd!2zTVEzNytNM0MsIOCkqOCkv-Ckl-CkoeClgCDgpK7gpL7gpLDgpY3gpJcsIG5lYXIgQWt1cmRpIFJhaWx3YXkgU3RhdGlvbiBSb2FkLCBTZWN0b3IgTm8uIDI2LCBQcmFkaGlrYXJhbiwgTmlnZGksIFBpbXByaS1DaGluY2h3YWQsIE1haGFyYXNodHJhIDQxMTA0NA!3m2!1d18.6517288!2d73.7616398!5e0!3m2!1sen!2sin!4v1760261662130!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="PCCOE Location"
+              ></iframe>
             </div>
           </motion.div>
         </div>

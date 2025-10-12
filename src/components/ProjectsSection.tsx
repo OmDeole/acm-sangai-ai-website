@@ -17,7 +17,7 @@ export default function ProjectsSection() {
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
 
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-10xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ export default function ProjectsSection() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
             Our Projects
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-400 text-lg max-w-10xl mx-auto">
             Innovative solutions built by our talented members
           </p>
         </motion.div>
@@ -42,29 +42,24 @@ export default function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="max-w-md"
+              className="w-full max-w-4xl"
             >
-              <TiltedCard
-                imageSrc={project.image}
-                altText={project.title}
-                captionText={project.title}
-                containerHeight="350px"
-                containerWidth="100%"
-                imageHeight="250px"
-                imageWidth="100%"
-                rotateAmplitude={8}
-                scaleOnHover={1.05}
-                showMobileWarning={false}
-                showTooltip={true}
-                displayOverlayContent={true}
-                overlayContent={
-                  <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
-                    <Sparkles className="w-12 h-12 text-accent mb-4" />
-                    <h3 className="text-2xl font-bold text-white mb-3">{project.title}</h3>
-                    <p className="text-sm text-gray-300 text-center">{project.description}</p>
-                  </div>
-                }
-              />
+              <div className="flex flex-col md:flex-row bg-black/70 rounded-xl overflow-hidden shadow-lg w-full h-[300px]">
+                {/* Image */}
+                <div className="md:w-1/2 w-full h-48 md:h-full">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                {/* Content */}
+                <div className="flex flex-col justify-center items-center md:items-start p-8 md:w-1/2 w-full h-full">
+                  <Sparkles className="w-12 h-12 text-accent mb-4" />
+                  <h3 className="text-3xl font-bold text-white mb-3">{project.title}</h3>
+                  <p className="text-lg text-gray-300 text-center md:text-left">{project.description}</p>
+                </div>
+              </div>
             </motion.div>
           ))}
         </div>

@@ -8,126 +8,126 @@ const teamData = {
   "2024-25": {
     faculty: [
       {
-        name: "Dr. Priya Sharma",
-        role: "Faculty Advisor",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Dr. Rachana Patil",
+        role: "Head of Department",
+        image: "/Images/Rachana patil ma'am.jpg",
+        linkedin: "https://linkedin.com/in/dr-rachana-patil-0b657b129"
       },
       {
-        name: "Dr. Rajesh Kumar",
-        role: "Faculty Co-Advisor",
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Prof. Ganesh Deshmukh",
+        role: "Faculty Sponsor",
+        image: "/Images/GDSIR3.jpg",
+        linkedin: "https://linkedin.com/in/ganesh-deshmukh-45a96372",
       },
     ],
     core: [
       {
-        name: "Arjun Mehta",
+        name: "Advait Nathe",
         role: "Chapter Chair",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        image: "/Images/advaitcrop.jpg",
+        linkedin: "https://linkedin.com/in/advaitnathe",
       },
       {
-        name: "Neha Gupta",
-        role: "Vice Chair",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Om Kawad",
+        role: "Chapter Vice Chair",
+        image: "/Images/omcrop.JPG",
+        linkedin: "https://www.linkedin.com/in/om-kawad-a0a52227a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
       {
-        name: "Rohan Patel",
+        name: "Adhya Bhagat",
         role: "Secretary",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        image: "/Images/adhyacrop.jpg",
+        linkedin: " https://www.linkedin.com/in/adhya-bhagat-a459ba2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Ananya Singh",
+        name: "Pratik Ghavate",
         role: "Treasurer",
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        image: "/Images/pratikcrop.jpg",
+        linkedin: " https://www.linkedin.com/in/pratik-ghavate-2b27082bb ",
+      },
+       {
+        name: "Ishwar Sonawane",
+        role: "WebMaster",
+        image: "/Images/ishwarcrop.jpg",
+        linkedin: " https://linkedin.com/in/ishwar-s-sonawane",
       },
       {
-        name: "Vikram Reddy",
-        role: "Research Lead",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Siddhesh Sarphale",
+        role: "Membership Chair",
+        image: "/Images/siddheshcrop.jpg",
+        linkedin: " https://www.linkedin.com/in/siddhesh-sarphale-1411292ba",
       },
       {
-        name: "Priya Desai",
-        role: "Technical Lead",
-        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Sanskruti Soitkar",
+        role: "Co-Secretary",
+        image: "/Images/sanskruticrop.jpg",
+        linkedin: "https://www.linkedin.com/in/sanskruti-a-soitkar-bb140934a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
+       {
+        name: "Venu More",
+        role: "Co-Treasurer",
+        image: "/Images/venucrop.jpg",
+        linkedin: "https://www.linkedin.com/in/venumore2230",
       },
       {
-        name: "Karan Verma",
-        role: "Events Lead",
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Onkar Chand",
+        role: "Management Executive",
+        image: "/Images/onkarcrop.jpg",
+        linkedin: "https://www.linkedin.com/in/onkar-chand-00a153294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Shreya Nair",
-        role: "Content Lead",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Suhani Thakare",
+        role: "Management Executive",
+        image: "/Images/suhanicrop.jpg",
+        linkedin: " https://www.linkedin.com/in/suhani-thakare-76727a330/",
       },
       {
-        name: "Aditya Shah",
-        role: "Marketing Lead",
-        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Tejas Parkar",
+        role: "Tech Head",
+        image: "Images/tejascrop.jpg",
+        linkedin: "https://www.linkedin.com/in/tejas-parkar-105a9827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Ishita Joshi",
-        role: "Design Lead",
-        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Sakshi Patil",
+        role: "Design Head",
+        image: "Images/sakshicrop.jpg",
+        linkedin: " https://www.linkedin.com/in/sakshi-patil-864494299",
       },
       {
-        name: "Siddharth Iyer",
-        role: "Outreach Lead",
-        image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Prem Chaudhari",
+        role: "PR & Social Media Head",
+        image: "/Images/premcrop.jpg",
+        linkedin: "https://www.linkedin.com/in/prem-chaudhari-185372373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
+          {
+        name: "Esha Bhamare",
+        role: "Co-PR & Social Media Head",
+        image: "/Images/ishacrop.jpg",
+        linkedin: "https://www.linkedin.com/in/isha-bhamare-7878a8367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       },
       {
-        name: "Kavya Malhotra",
-        role: "Social Media Lead",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Shagun Chaudhari",
+        role: "Marketing Head",
+        image: "/Images/shaguncrop.jpg",
+        linkedin: "https://www.linkedin.com/in/shagun-chaudhari-002738313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Amit Kapoor",
-        role: "Web Development Lead",
-        image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        name: "Nihar Salvi",
+        role: "Associate Member",
+        image: "/Images/niharcrop.jpg",
+        linkedin: "https://www.linkedin.com/in/nihar-salvi-997b04311/",
       },
-      {
-        name: "Divya Menon",
-        role: "AI/ML Lead",
-        image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        {
+        name: "Sushant Didwagh",
+        role: "Associate Member",
+        image: "/Images/sushantcrop.jpg",
+        linkedin: " https://www.linkedin.com/in/sushant-didwagh-9bb1952b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
-      {
-        name: "Rahul Singh",
-        role: "Data Science Lead",
-        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop",
-        linkedin: "#",
-      },
-      {
-        name: "Pooja Rao",
-        role: "Community Manager",
-        image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&auto=format&fit=crop",
-        linkedin: "#",
-      },
-      {
-        name: "Vishal Sharma",
-        role: "Public Relations Lead",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop",
-        linkedin: "#",
-      },
-      {
-        name: "Meera Patel",
-        role: "Workshop Coordinator",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop",
-        linkedin: "#",
+        {
+        name: "Yadnesh Patil",
+        role: "Associate Member",
+        image: "/Images/yadneshcrop.jpg",
+        linkedin: "https://www.linkedin.com/in/yadnesh-patil-799a9b29a/",
       },
     ],
   },
@@ -194,6 +194,8 @@ function FacultyMemberCard({ member, index }: FacultyMemberCardProps) {
       <div className="p-4 flex gap-2 relative z-10">
         <motion.a
           href={member.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex-1 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary transition-colors"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -246,6 +248,8 @@ function CoreMemberCard({ member, index }: CoreMemberCardProps) {
       <div className="p-3 flex gap-2 relative z-10">
         <motion.a
           href={member.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex-1 h-9 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary transition-colors"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -259,6 +263,22 @@ function CoreMemberCard({ member, index }: CoreMemberCardProps) {
 
 export default function TeamSection() {
   const [activeTab, setActiveTab] = useState<"faculty" | "core">("faculty");
+
+  const coreMembers = teamData["2024-25"].core;
+const chair = coreMembers.find(m => m.role === "Chapter Chair");
+const viceChair = coreMembers.find(m => m.role === "Chapter Vice Chair");
+const rest = coreMembers.filter(
+  m => m.role !== "Chapter Chair" && m.role !== "Chapter Vice Chair"
+);
+
+// Arrange: [empty, Chair, Vice Chair, empty, ...rest]
+const core = [
+  null, // empty slot 1
+  chair,
+  viceChair,
+  null, // empty slot 4
+  ...rest,
+];
 
   return (
     <section className="py-24 px-4">
@@ -347,9 +367,14 @@ export default function TeamSection() {
             transition={{ duration: 0.3 }}
             className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
           >
-            {teamData["2024-25"].core.map((member, index) => (
-              <CoreMemberCard key={member.name} member={member} index={index} />
-            ))}
+            {core.map((member, index) =>
+              member ? (
+                <CoreMemberCard key={member.name} member={member} index={index} />
+              ) : (
+                // Render an empty div for empty slots
+                <div key={`empty-${index}`} />
+              )
+            )}
           </motion.div>
         )}
       </div>

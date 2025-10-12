@@ -85,7 +85,7 @@ export default function EventsSection() {
 								>
 									{event.status}
 								</span>
-								<span className="px-4 py-2 text-xs rounded-full bg-white/10 text-white border border-white/20 font-medium">
+								<span className="px-4 py-1 text-xs rounded-full bg-white/10 text-white border border-white/20 font-high">
 									{event.type}
 								</span>
 							</div>

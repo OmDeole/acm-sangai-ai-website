@@ -15,8 +15,8 @@ const resources = [
 ];
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Linkedin, href: "https://linkedin.com/in/pccoeacm-sig-91523238a", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/pccoeacmsigai?igsh=MXV0c2d6MWJ2czNjMA==", label: "Instagram" },
 ];
 
 export default function Footer() {
@@ -37,10 +37,10 @@ export default function Footer() {
                 alt="ACM SIGAI Logo" 
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-xl font-bold gradient-text">ACM SIGAI</span>
+              <span className="text-xl font-bold gradient-text">PCCOE ACM SIGAI</span>
             </motion.div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Empowering students through cutting-edge technology, innovation, and collaborative learning in AI and computing.
+              Empowering students to explore, create, and innovate with AI — using technology, curiosity, and teamwork to shape a smarter, more connected world.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
@@ -48,6 +48,8 @@ export default function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
+                  target="_blank"
+                  rel="nooper noreferrer"
                   className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-accent hover:text-black transition-all group"
                 >
                   <social.icon className="w-5 h-5 text-accent group-hover:text-black" />
@@ -96,21 +98,21 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm">
                 <Mail className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                <a href="mailto:acm.sigai@university.edu" className="text-gray-400 hover:text-accent transition-colors">
-                  acm.sigai@university.edu
+                <a href="mailto:pccoeacmsigai@pccoepune.org" className="text-gray-400 hover:text-accent transition-colors">
+                 pccoeacmsigai@pccoepune.org
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <Phone className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                <a href="tel:+911234567890" className="text-gray-400 hover:text-accent transition-colors">
-                  +91 123 456 7890
+                <a href="tel:+917218599251" className="text-gray-400 hover:text-accent transition-colors">
+                  +91 72185 99251
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <MapPin className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Computer Science Dept.<br />
-                  University Campus
+                  Computer Engineering (Regional Language) Department<br />
+                      PCCOE Sector no.- 26, Nigdi, Pune, Maharashtra 411044.
                 </span>
               </li>
             </ul>
@@ -120,12 +122,13 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>© 2024 ACM SIGAI Student Chapter. All rights reserved.</p>
-            <div className="flex gap-6">
+            <p>© 2025 PCCOE ACM SIGAI Student Chapter. All rights reserved.</p>
+           {/*<div className="flex gap-6">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
               <a href="#" className="hover:text-accent transition-colors">Code of Conduct</a>
-            </div>
+            </div> 
+            */}
           </div>
         </div>
       </div>
