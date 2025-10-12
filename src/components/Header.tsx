@@ -41,8 +41,12 @@ export default function Header() {
             className="flex items-center gap-2 text-xl font-bold"
             whileHover={{ scale: 1.05 }}
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+              <img
+              src="Images/ACM_LOGO.JPG" // <-- Replace with your actual logo path
+                alt="PCCOE ACM SIGAI Logo"
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <span className="gradient-text">PCCOE ACM SIGAI</span>
           </motion.a>
